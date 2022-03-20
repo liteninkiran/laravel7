@@ -13,5 +13,7 @@
             <x-slot name="heading">Sidebar Cooler</x-slot>
             <p>Content</p>
         </x-sidebar>
+
+        <x-navigation />
     </body>
 </html>
