@@ -15,5 +15,7 @@
         </x-sidebar>
 
         <x-navigation />
+
+        <x-subview />
     </body>
 </html>
