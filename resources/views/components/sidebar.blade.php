@@ -1,4 +1,11 @@
 <div>
     <p>{{ $title }}</p>
     <p>{{ $name }}</p>
+
+    <ul>
+        @foreach($list('Sugar') as $item)
+            <li>{{ $item }}</li>
+        @endforeach
+    </ul>
+
 </div>

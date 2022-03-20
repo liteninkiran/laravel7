@@ -29,4 +29,13 @@ class Sidebar extends Component
     {
         return view('components.sidebar');
     }
+
+    public function list($include): array
+    {
+        return [
+            'Hello',
+            'Item 2',
+            $include,
+        ];
+    }
 }
