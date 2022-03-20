@@ -10,6 +10,7 @@
     <body class="flex flex-col items-center">
         <h1 class="text-3xl font-bold underline">Example</h1>
         <x-sidebar title="My Sidebar" :name="$name" class="bg-gray-100">
+            <x-slot name="heading">Sidebar Cooler</x-slot>
             <p>Content</p>
         </x-sidebar>
     </body>

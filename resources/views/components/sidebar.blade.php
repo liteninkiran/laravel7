@@ -1,4 +1,4 @@
-<div {{ $attributes->merge(['class' => 'text-xl']) }}>
+<div {{ $attributes->merge(['class' => 'text-red-800']) }}>
 
     <p>{{ $title }}</p>
     <p>{{ $name }}</p>
@@ -8,6 +8,8 @@
             <li>{{ $item }}</li>
         @endforeach
     </ul>
+
+    <h1 class="text-3xl font-medium">{{ $heading }}</h1>
 
     {{ $slot }}
 
