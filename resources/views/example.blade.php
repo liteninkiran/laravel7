@@ -16,6 +16,6 @@
 
         <x-navigation />
 
-        <x-subview />
+        <x-partials.subview />
     </body>
 </html>
