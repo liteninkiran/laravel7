@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'welcome');
-Route::view('/example', 'example');
 
+Route::view('/example', 'example', [
+    'name' => 'Kiran',
+]);

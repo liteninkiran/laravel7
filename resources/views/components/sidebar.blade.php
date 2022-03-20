@@ -1,3 +1,4 @@
 <div>
-    Sidebar Component
+    <p>{{ $title }}</p>
+    <p>{{ $name }}</p>
 </div>

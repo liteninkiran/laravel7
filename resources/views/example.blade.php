@@ -9,6 +9,6 @@
     </head>
     <body class="flex flex-col items-center">
         <h1 class="text-3xl font-bold underline">Example</h1>
-        <x-sidebar />
+        <x-sidebar title="My Sidebar" :name="$name" />
     </body>
 </html>

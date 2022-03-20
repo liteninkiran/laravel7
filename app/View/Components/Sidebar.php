@@ -6,14 +6,18 @@ use Illuminate\View\Component;
 
 class Sidebar extends Component
 {
+    public $title;
+    public $name;
+
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($title, $name)
     {
-        //
+        $this->title = $title;
+        $this->name = $name;
     }
 
     /**
