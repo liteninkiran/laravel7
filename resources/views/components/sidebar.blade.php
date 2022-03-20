@@ -1,4 +1,5 @@
-<div>
+<div {{ $attributes->merge(['class' => 'text-xl']) }}>
+
     <p>{{ $title }}</p>
     <p>{{ $name }}</p>
 
